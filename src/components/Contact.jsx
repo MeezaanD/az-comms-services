@@ -10,7 +10,7 @@ const Contact = () => (
 			</p>
 			<div className="flex flex-wrap justify-center gap-12">
 				<div className="flex flex-col items-center">
-					<h3 className="text-2xl font-semibold mb-2">Abdul-Karriem Samai</h3>
+					<h3 className="text-2xl font-semibold mb-2">Abdul-Karriem Samaai</h3>
 					<p className="text-lg mt-2">
 						<FaPhoneAlt className="inline mr-2 text-gray-400" /><a
 							href="tel:+27714618796"
@@ -30,7 +30,7 @@ const Contact = () => (
 					</p>
 				</div>
 				<div className="flex flex-col items-center">
-					<h3 className="text-2xl font-semibold mb-2">Alternatlively</h3>
+					<h3 className="text-2xl font-semibold mb-2">Alternatively</h3>
 					<p className="text-lg mt-2">
 						<FaPhoneAlt className="inline mr-2 text-gray-400" /><a
 							href="tel:+27733866116"
@@ -57,6 +57,14 @@ const Contact = () => (
 						className="text-[#1DA1F2] hover:underline"
 						rel="noopener noreferrer">
 						Email Address: samaaiak@gmail.com
+					</a>
+				</p>
+				<p className="text-lg mt-2">
+					📧 <a
+						href="mailto:azcomms73@gmail.com"
+						className="text-[#1DA1F2] hover:underline"
+						rel="noopener noreferrer">
+						Email Address: azcomms73@gmail.com
 					</a>
 				</p>
 			</div>
