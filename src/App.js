@@ -21,8 +21,8 @@ const App = () => {
 		<div>
 			<Navbar />
 			<Hero />
-			<About data-aos="fade-up" />
 			<Services data-aos="fade-up" />
+			<About data-aos="fade-up" />
 			<Contact data-aos="fade-up" />
 		</div>
 	);

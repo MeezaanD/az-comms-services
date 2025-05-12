@@ -1,24 +1,57 @@
 import React from 'react';
 
 const About = () => (
-	<section id='about'>
-		<div className="bg-[rgb(16,16,16)] text-white py-16 px-6 text-center">
-			<h2 className="text-3xl md:text-4xl font-bold mb-4">About Abdul-Karriem Samaai</h2>
-			<div className="max-w-4xl mx-auto">
-				{/* About Me */}
-				<h3 className="text-2xl md:text-3xl font-semibold mb-4 text-[#FFD700]">About Me</h3>
-				<p className="text-lg md:text-xl mb-8 text-start">
-					I am an accomplished Telecomms technician based in the city of <span className="text-[#FFD700]">Cape Town</span>, South Africa. With over 15 years of hands-on experience in the field, I have honed my expertise and built a strong foundation in telecommunications. Additionally, I have expanded my skillset into the networking field, allowing me to offer comprehensive solutions to clients. Currently, I am proud to serve as a subcontractor for <span className="text-[#FFD700]">Open Serve</span> as well. This opportunity has further enriched my professional journey, enabling me to deliver exceptional workmanship and uphold the high standards expected in the industry. Throughout my career, I have always prioritized myself in delivering and guaranteeing superior workmanship, which has been a constant source of pride for me.
-				</p>
+  <section id="about" className="bg-white text-black py-16 px-6">
+    <div className="max-w-7xl mx-auto bg-white p-6 rounded-xl shadow hover:shadow-lg transition duration-300">
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+        About Our Expert
+      </h2>
 
-				{/* My Experience */}
-				<h3 className="text-2xl md:text-3xl font-semibold mb-4 text-[#FFD700]">My Experience</h3>
-				<p className="text-lg md:text-xl text-start">
-					With over <span className="text-[#FFD700]">15 years</span> of experience, I have worked in various roles within the telecommunications industry, gaining invaluable hands-on experience. I have expanded my expertise into the <span className="text-[#FFD700]">networking</span> field, providing complete solutions that are both efficient and reliable. I take pride in the high standards of work that I uphold, always ensuring that each project I complete exceeds expectations. This dedication has allowed me to build a strong reputation and continue growing professionally.
-				</p>
-			</div>
-		</div>
-	</section>
+      <div className="grid md:grid-cols-2 gap-12 items-start">
+        {/* Left Column: Bio */}
+        <div>
+          <h3 className="text-2xl font-semibold text-blue-700 mb-4">
+            Abdul-Karriem Samaai
+          </h3>
+          <p className="text-lg mb-6 font-medium">
+            Founder & Telecommunications Expert
+          </p>
+          <p className="text-lg mb-4">
+            With over a decade of experience in the telecommunications industry, Abdul-Karriem Samaai has
+            established himself as a trusted expert in network solutions across Cape Town.
+          </p>
+          <p className="text-lg mb-4">
+            His extensive knowledge in fiber optics, LAN installation, CCTV setup, and other telecom services
+            has helped countless homes and businesses achieve reliable connectivity and security.
+          </p>
+          <ul className="list-disc list-inside text-lg text-gray-700">
+            <li>Certified telecommunications technician</li>
+            <li>Expert in fiber optic solutions</li>
+            <li>Specialized in network troubleshooting</li>
+            <li>Dedicated to customer satisfaction</li>
+          </ul>
+        </div>
+
+        {/* Right Column: Mission & Why Choose Us */}
+        <div>
+          <h3 className="text-2xl font-semibold text-blue-700 mb-4">Our Commitment</h3>
+          <blockquote className="italic border-l-4 border-blue-700 pl-4 text-gray-800 mb-6">
+            “At AZ Comms & Services, we're committed to providing top-quality telecommunications solutions
+            with exceptional service. Every installation, repair, and consultation is handled with the utmost
+            professionalism and attention to detail.”
+          </blockquote>
+
+          <h3 className="text-2xl font-semibold text-blue-700 mb-4">Why Choose Us?</h3>
+          <ul className="list-disc list-inside text-lg text-gray-700">
+            <li>Professional and reliable service</li>
+            <li>Experienced technician with proven track record</li>
+            <li>Competitive pricing and honest quotes</li>
+            <li>Comprehensive solutions for all your networking needs</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 );
 
 export default About;
